@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO LIST</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+    <body>
+        <h1>Список задач</h1>
+        <div class="wrapper">
+            <div class="task-input">
+                <ion-icon name="create-outline"></ion-icon>
+                <input type="text" placeholder="Добавить новую задачу + Enter">
+            </div>
+            <div class="controls">
+                <div class="filters">
+                  
+                   
+                    <span class="active" id="all">Все</span>
+                    <span id="pending">Незавершённые</span>
+                    <span id="completed">Завершённые</span>
+                </div>
+                <button class="clear-btn">Очистить всё</button>
+            </div>
+            <ul class="task-box"></ul>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+
+</html>
